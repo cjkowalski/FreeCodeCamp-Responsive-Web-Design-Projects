@@ -1,0 +1,199 @@
+/* * {
+  border: .1px solid rgb(255, 171, 171);
+} */
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  font-family: sans-serif, Times, serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  color: rgb(228, 228, 228);
+  padding: 0 35px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+nav > ul > li {
+  font-family: 'Roboto Mono';
+  font-size: 12px;
+  color:rgb(107, 107, 107);
+}
+
+a {
+  text-decoration: none;
+  color:rgb(107, 107, 107);
+}
+
+:root {
+  --custom-height: calc(100vh - 50px);
+}
+
+main {
+  display: flex;
+  height: var(--custom-height);
+}
+
+container {
+  width: 50vw;
+}
+
+.right-side {
+  flex: 1 1 auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+.fred-image {
+  width: 100%;
+  height: var(--custom-height);
+  object-fit: cover;
+  display: block;
+}
+
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.left-side {
+  padding: 20px;
+  white-space: nowrap;
+  overflow-y: auto;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  overflow-x: hidden;
+}
+
+
+.spacer-1 {
+  height: 43vh;
+}
+
+.center-icon {
+  padding: 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.icon {
+  width: 35px;  
+  justify-content: space-between;
+}
+
+h2 {
+  padding-top: 80px;
+  font-family: 'Merriweather';
+  font-size: 3em;
+  text-align: right;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 10.5em;
+  padding-left: 33px;
+  color: rgb(48, 48, 48);
+  margin-top: -70px;
+}
+
+h4 {
+  margin-top: 35px;
+  font-family: 'Merriweather';
+  font-size: 8em;
+  text-align: center;
+  margin-bottom: -90px;
+  color: rgb(242, 242, 242);
+  font-style: italic;
+  margin-left: 200px;
+  background-attachment: fixed;
+}
+
+h6 {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.album img {
+  width: 115px;
+  display: block;
+  height: 115px;
+}
+
+.discography {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.album {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  width: 400px;
+}
+
+.album-descriptions {
+  width: 100%;
+  font-family: sans-serif;
+  align-content: center;
+}
+
+.album-descriptions ul li,
+.album-descriptions ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color:rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.album-descriptions ul {
+  margin: 10px;
+  margin-top: 4px;
+}
+
+p {
+  text-wrap: wrap;
+  font-family: 'Merriweather';
+  margin: 20px;
+  margin-top:20px;
+  line-height: 1.8em;
+  text-indent: 50px;
+  text-align: right;
+}
+
+.diff-p {
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-align-last: center;
+  color: rgb(119, 119, 119);
+  background-color: rgb(235, 235, 235);
+  padding: 6px;
+  -webkit-box-decoration-break: clone;
+  -moz-background-inline-policy: clone;
+  border-radius: 2px;
+}

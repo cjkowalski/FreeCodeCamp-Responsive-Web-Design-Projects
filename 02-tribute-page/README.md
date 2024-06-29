@@ -18,7 +18,7 @@ Scrolled down a little bit (only the left flexbox item scrolls):
   <img src="./images/fred-again-tribute-2.png" width=700>
 </p>
 
-<h3>html Concepts Applied
+<h3>HTML & CSS Concepts Applied
 </h3>
 
 - flexbox, flex-direction

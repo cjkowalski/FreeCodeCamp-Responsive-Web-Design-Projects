@@ -6,7 +6,7 @@ I have been following the <b> freeCodeCamp Responsive Web Design Program </b>, a
   <img src="./images/freeCodeCampSurveyForm.png" width=700>
 </p>
 
-<h3>html Concepts Applied
+<h3>HTML Concepts Applied
 </h3>
 
 - form

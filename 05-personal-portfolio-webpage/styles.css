@@ -1,0 +1,25 @@
+#welcome-section {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+}
+
+nav {
+  height: 70px;
+  background-color: red;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  position: fixed;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

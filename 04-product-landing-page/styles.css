@@ -1,0 +1,67 @@
+body {
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(135, 135, 216);
+  color: white;
+}
+
+header ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-right: 160px;
+  margin-left: 160px;
+  padding: 15px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+form {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 0;
+
+}
+
+#email {
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-color: rgb(216, 210, 210);
+  height: 26px;
+}
+
+#submit {
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+  background-color: rgb(113, 186, 134);
+  border: 0;
+  border-radius: 5px;
+  height: 23px;
+  color: rgb(49, 104, 87);
+}
